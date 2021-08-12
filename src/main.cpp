@@ -40,9 +40,9 @@ void DrawLinesandGraphicsFrame(int framesPerSecond)
 
   // Draw some text into the frame
   g_OLED.setCursor(3, g_lineHeight * 2 + 2);                            // Draw "Hello World" and framerate on the left hand side
-  g_OLED.print("Hello");
+  g_OLED.print("Lauren");
   g_OLED.setCursor(3, g_lineHeight * 3 + 2);
-  g_OLED.print("World");
+  g_OLED.print("is Dom");
   g_OLED.setCursor(3, g_lineHeight * 4 + 2);
   g_OLED.printf("%03d", framesPerSecond);
 
